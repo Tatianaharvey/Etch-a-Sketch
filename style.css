@@ -18,6 +18,11 @@ h1 {
     color: rgb(122, 208, 208);
 }
 
+p {
+    color: grey;
+    font-weight: bold;
+}
+
 .container {
     display: inline-grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
@@ -28,4 +33,32 @@ h1 {
 .gridItem {
     padding: 1em;
     border: 1px solid grey; 
+}
+
+.gridSize {
+    border: none;
+    background:rgb(232, 181, 87);
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+}  
+
+.gridSize:hover {
+    background: rgb(235, 200, 135); 
+    cursor: pointer; 
+}
+
+.resetGrid {
+    border: none;
+    background:rgb(136, 79, 136);
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.resetGrid:hover {
+    background: rgb(211, 162, 211); 
+    cursor: pointer; 
 }
