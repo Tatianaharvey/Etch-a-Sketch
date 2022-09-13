@@ -43,8 +43,7 @@ function changeSize() {
         makeGrid(num,num);
     } else {
         alert("Please enter a digit between 1 and 100.")
-        changeSize()
-    }
+    } 
 }
 
 // Main
